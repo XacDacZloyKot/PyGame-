@@ -131,6 +131,7 @@ def game(nickname: str, display: pygame.Surface):
         colider_hit_enemy(enemy_group, bullet_group)
         
         if is_winner == False:
+            load_statistics_to_database(nickname, kill, score)
             return False
         
         if is_winner == True:
