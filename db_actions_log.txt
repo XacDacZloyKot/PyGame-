@@ -1,0 +1,10 @@
+2024-02-26 17:20:59,166 - 2024-02-26 17:20:59 - Created 'player' table
+2024-02-26 17:20:59,167 - 2024-02-26 17:20:59 - Executed SQL: INSERT INTO player (name, kill, score) VALUES (?, ?, ?) with params: ('баласт', 5, 987)
+2024-02-26 17:20:59,170 - 2024-02-26 17:20:59 - Executed SQL: SELECT * FROM player ORDER BY score DESC LIMIT 5 with params: None
+2024-02-26 17:22:19,266 - 2024-02-26 17:22:19 - Executed SQL: INSERT INTO player (name, kill, score) VALUES (?, ?, ?) with params: ('Даша', 10, 1895)
+2024-02-26 17:22:19,272 - 2024-02-26 17:22:19 - Executed SQL: SELECT * FROM player ORDER BY score DESC LIMIT 5 with params: None
+2024-02-26 17:22:37,663 - 2024-02-26 17:22:37 - Executed SQL: SELECT * FROM player ORDER BY score DESC LIMIT 5 with params: None
+2024-02-26 17:23:13,110 - 2024-02-26 17:23:13 - Executed SQL: INSERT INTO player (name, kill, score) VALUES (?, ?, ?) with params: ('апавп', 10, 1733)
+2024-02-26 17:23:13,114 - 2024-02-26 17:23:13 - Executed SQL: SELECT * FROM player ORDER BY score DESC LIMIT 5 with params: None
+2024-02-26 17:24:03,597 - 2024-02-26 17:24:03 - Executed SQL: INSERT INTO player (name, kill, score) VALUES (?, ?, ?) with params: ('fgghjdg', 10, 1686)
+2024-02-26 17:24:03,600 - 2024-02-26 17:24:03 - Executed SQL: SELECT * FROM player ORDER BY score DESC LIMIT 5 with params: None
